@@ -1,0 +1,65 @@
+.body{
+    font-size: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+.gary{
+    width: 820px;
+    margin: auto;
+}
+.gary{
+    color: #121111;
+    font-size: 17px;
+    text-align: center;
+}
+.search{
+    width: 100%; 
+    line-height: 45px;
+    height: 50px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC ;
+    color: #666666;
+    width: 200px;
+    font-size: 20px;
+}
+.btn{
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.gary p{
+    /* Indent the first row by two distances */
+    line-height: 4;
+    margin: 20px 0;
+    text-indent: 2em;
+    cursor: pointer
+}    
+.gary p:hover{
+	color: #ce8460;
+}
+  
+
+.pic{
+    
+    text-align: center;
+}
+
+.gary ul{ 
+    overflow:hidden;
+}
+.gary ul li {  
+    color: #dbdbdb; 
+    font-size: 12px; 
+    height:38px; 
+    line-height:38px 
+}
+.gary ul li a { 
+    color: rgb(97, 201, 204); 
+    font-size: 16px; 
+}
+.gary ul li a:hover{
+    color: #ce8460;
+}

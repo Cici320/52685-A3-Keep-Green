@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+}
+li{
+	list-style: none;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0 50px 0;
+}
+.logo h4{
+	cursor: pointer;
+	font-size: 25px;
+	letter-spacing: 2px;
+	margin: 20px 0 5px 0;
+}
+.logo h4:hover{
+	color: #ce8460;
+}
+.nav{ 
+	width: 100%; 
+    line-height: 45px;
+    height: 50px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC
+    }
+.nav>ul{
+    display: flex;
+    justify-content: center;
+    padding: 4.5px 0;
+}
+.nav>ul>li{
+    list-style: none;
+    margin: 0 25px;
+}
+.nav>ul>li{
+	position: relative;
+	margin: 0 30px;
+}
+.nav ul li a{
+        color: #333;
+        text-decoration: none;
+    }
+.nav ul li a:hover{
+        color: #ce8460;
+    }
+    .nav ul li ul{
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        background: #f2f2f2;
+        padding: 10px;
+        width: 80px;
+    }
+    .nav ul li li{
+        margin: 5px 0;
+    }
+    .nav>ul>li:hover ul{
+        display: block;
+    }
+
+
+    .image2{
+        width: 820px;
+        margin: 20px auto;
+    }
+    .image2 img{
+        width: 100%;
+    }
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* container style */
+  .container {
+    position: relative;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+  } 
+  
+ 
+  input,
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; 
+  }
+  
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  /* button background color */
+  .fb {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background-color: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }
+  
+  /* Submit button style */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /*submit button style */
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  
+  /* clear float*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* vertical line */
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+  }
+  
+  /* horizontal text */
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  
+  /* large screen hidden text */
+  .hide-md-lg {
+    display: none;
+  }
+  
+  /* bottom container*/
+  .bottom-container {
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  /* Responsive design, when the screen size of the device is less than 650px, it will be displayed up and down */
+  @media screen and (max-width: 650px) 
+    
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+    /* hide the vertical line */
+    .vl {
+      display: none;
+    }
+    /* show the hidden text on small screens */
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  
