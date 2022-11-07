@@ -14,7 +14,7 @@
 
 
 ## General Information
-- We use digital technology and our own data literacy and code literacy to promote environmental protection and energy conservation.
+- I use digital technology and our own data literacy and code literacy to promote environmental protection and energy conservation.
 
 ## Features
 List the ready features here:
